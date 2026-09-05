@@ -24,36 +24,42 @@ const domains = [
       {
         icon: MessageSquare,
         title: "IT Consulting",
+        color: "#3b82f6",
         description:
           "Guidance on the right systems and infrastructure to streamline and secure your operations.",
       },
       {
         icon: ShieldCheck,
         title: "Cybersecurity",
+        color: "#ef4444",
         description:
           "Protection against evolving digital threats, built around how your business actually works.",
       },
       {
         icon: Cloud,
         title: "Cloud Solutions",
+        color: "#0ea5e9",
         description:
           "Cloud services that improve efficiency, security and scalability as your business grows.",
       },
       {
         icon: Server,
         title: "Networking & Structured Cabling",
+        color: "#8b5cf6",
         description:
           "Secure, high-performance networks and cabling tailored to your site and requirements.",
       },
       {
         icon: Headset,
         title: "Managed IT Support",
+        color: "#14b8a6",
         description:
           "Round-the-clock IT support and maintenance to keep operations running smoothly.",
       },
       {
         icon: GraduationCap,
         title: "Technical Training & Consultation",
+        color: "#f59e0b",
         description:
           "Hands-on training so your team and technicians get the most from their systems.",
       },
@@ -66,36 +72,42 @@ const domains = [
       {
         icon: Camera,
         title: "CCTV & Video Surveillance",
+        color: "#6366f1",
         description:
           "High-definition camera systems, professionally installed for real-time monitoring and playback.",
       },
       {
         icon: Fingerprint,
         title: "Access Control & Biometrics",
+        color: "#10b981",
         description:
           "Fingerprint and card-based access systems that manage who enters a site, and when.",
       },
       {
         icon: BellRing,
         title: "Intruder & Alarm Systems",
+        color: "#f43f5e",
         description:
           "Motion sensors and alarm systems that detect intrusions and trigger instant alerts.",
       },
       {
         icon: Zap,
         title: "Electric Fencing & Perimeter",
+        color: "#f97316",
         description:
           "Perimeter fencing designed to deter unauthorised access around a property or site.",
       },
       {
         icon: DoorOpen,
         title: "Automated Gates",
+        color: "#06b6d4",
         description:
           "Motorised gate automation for secure, convenient entry management.",
       },
       {
         icon: Flame,
         title: "Fire & Panic Alarm Systems",
+        color: "#dc2626",
         description:
           "Smoke detection, siren networks and panic-button systems for fast emergency response.",
       },
@@ -147,7 +159,13 @@ const Services = () => {
                     whileHover={{ y: -4 }}
                     className="bg-card border border-line rounded-2xl p-6 transition-colors duration-300 hover:border-signal hover:shadow-[0_16px_32px_-20px_rgba(11,21,36,0.35)]"
                   >
-                    <div className="w-11 h-11 rounded-[10px] mb-4 flex items-center justify-center bg-gradient-to-br from-forest to-ink">
+                    <div
+                      className="w-11 h-11 rounded-[10px] mb-4 flex items-center justify-center"
+                      style={{
+                        background: `linear-gradient(135deg, ${service.color}, ${service.color}cc)`,
+                        boxShadow: `0 8px 16px -8px ${service.color}80`,
+                      }}
+                    >
                       <Icon className="h-5 w-5 text-white" strokeWidth={1.5} />
                     </div>
                     <h4 className="font-display text-base font-semibold text-ink mb-2">

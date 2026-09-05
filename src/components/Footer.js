@@ -49,11 +49,11 @@ const Footer = () => {
               IT infrastructure across Tanzania.
             </p>
             <div className="flex gap-4">
-              <a href="#" aria-label="Facebook" className="hover:scale-110 transition-transform"><Facebook className="h-5 w-5 text-[#1877F2]" /></a>
-              <a href="#" aria-label="X (Twitter)" className="hover:scale-110 transition-transform"><FaXTwitter className="h-5 w-5 text-black bg-white rounded-full p-[2px]" /></a>
-              <a href="#" aria-label="Instagram" className="hover:scale-110 transition-transform"><Instagram className="h-5 w-5 text-[#E4405F]" /></a>
-              <a href="#" aria-label="LinkedIn" className="hover:scale-110 transition-transform"><Linkedin className="h-5 w-5 text-[#0077B5]" /></a>
-              <a href="#" aria-label="TikTok" className="hover:scale-110 transition-transform"><SiTiktok className="h-5 w-5 text-[#69C9D0]" /></a>
+              <a href="https://facebook.com/tricoretechnologysolutions" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="hover:scale-110 transition-transform"><Facebook className="h-5 w-5 text-[#1877F2]" /></a>
+              <a href="https://x.com/tricoretechsol" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="hover:scale-110 transition-transform"><FaXTwitter className="h-5 w-5 text-black bg-white rounded-full p-[2px]" /></a>
+              <a href="https://instagram.com/tricoretechnologysolutions" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:scale-110 transition-transform"><Instagram className="h-5 w-5 text-[#E4405F]" /></a>
+              <a href="https://linkedin.com/company/tricoretechnologysolutions" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:scale-110 transition-transform"><Linkedin className="h-5 w-5 text-[#0077B5]" /></a>
+              <a href="https://tiktok.com/@tricoretechnologysolutions" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="hover:scale-110 transition-transform"><SiTiktok className="h-5 w-5 text-[#69C9D0]" /></a>
             </div>
           </div>
 
